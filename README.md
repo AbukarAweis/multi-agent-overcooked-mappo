@@ -26,7 +26,7 @@ The project uses a MAPPO-style actor-critic architecture for cooperative multi-a
 4. During training, a centralized value function evaluates the combined 192-dimensional observations of both agents.
 5. Trajectories are collected from both agents and used to compute rewards-to-go and advantage estimates.
 6. The policy is updated using the PPO clipped objective with entropy regularization, while the centralized critic is trained to predict returns.
-7. The process repeats over many episodes until the agents learn cooperative behavior that consistently completes soup deliveries.
+7. Training proceeds over repeated 400-step episodes until the agents learn cooperative behavior that consistently completes soup deliveries.
 
 ## Implementation
 
