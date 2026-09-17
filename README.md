@@ -70,7 +70,7 @@ Handles experiment output and visualization utilities, including:
 
 ## Visualizations
 
-The animations below show the trained MAPPO agents completing full episodes in each of the three Overcooked layouts.
+The animations below show the trained MAPPO agents completing a full episode in each of the three Overcooked layouts.
 
 ### Cramped Room
 
